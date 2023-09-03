@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header bg-danger">
+            <h4>Nambah Dewe</h4>
+        </div>
+        <div class="card-body">
+            <form action="<%= targetRoute %>" method="post">
+                Nama member
+                <input type="text" name="nama_member" id="nama_member" class="form-control" value="<%= nama_member %>" required />
+
+                alamat
+                <input type="text" name="alamat" id="alamat" class="form-control" value="<%= alamat %>" required />
+
+                telepon
+                <input type="number" name="telepon" id="telepon" class="form-control" value="<%= telepon %>" required />
+
+                <button type="submit" class="btn btn-success mt-2">
+                    Simpan
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
